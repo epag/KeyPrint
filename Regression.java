@@ -98,8 +98,8 @@ public class Regression {
 		double slope2 = (items*sums[4] - (sums[5]*sums[0]))/(items*sums[3] - Math.pow(sums[0],2));
 		double intercept2 = (sums[5]-slope*sums[0])/items;
 		
-		System.out.printf("TIME PRESSED: Line of best fit is: y = %.3fx + %.3f\nR (coeffiecent of correlation): %.3f\n",slope,intercept,Math.sqrt(r));
-		System.out.printf("TRAVERSAL TIME: Line of best fit is: y = %.3fx + %.3f\nR (coeffiecent of correlation): %.3f\n",slope2,intercept2,Math.sqrt(r2));
+		//System.out.printf("TIME PRESSED: Line of best fit is: y = %.3fx + %.3f\nR (coeffiecent of correlation): %.3f\n",slope,intercept,Math.sqrt(r));
+		//System.out.printf("TRAVERSAL TIME: Line of best fit is: y = %.3fx + %.3f\nR (coeffiecent of correlation): %.3f\n",slope2,intercept2,Math.sqrt(r2));
 		
 		FileWriter fw = null;
 		try {

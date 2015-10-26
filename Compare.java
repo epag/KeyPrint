@@ -91,7 +91,7 @@ public class Compare {
 		}
 		float err = cmp(TimeHeld, TimeBetween);
 		
-		System.out.println(cmp(TimeHeld, TimeBetween));
+		//System.out.println(cmp(TimeHeld, TimeBetween));
 		if (err > 4) {
 			System.out.println("You may not be who you say you are");
 			deleteLine(args[0] + "Awns.txt");
